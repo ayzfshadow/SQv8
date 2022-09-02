@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ayzf.sqv8.plugin">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:resizeableActivity="true">
+
+        <meta-data
+            android:name="class"
+            android:value="com.ayzf.sqv8.plugin.Demo"/>
+
+        <meta-data
+            android:name="author"
+            android:value="暗影之风"/>
+
+        <meta-data
+            android:name="info"
+            android:value="测试样本"/>
+
+        <meta-data
+            android:name="jump"
+            android:value="true"/>
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+
+                <action android:name="saki.setqq.plugin.v8.main"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+
+            </intent-filter>
+        </activity>
+
+        <meta-data
+          android:name="android.max_aspect"
+          android:value="4.0"/>
+
+    </application>
+
+</manifest>

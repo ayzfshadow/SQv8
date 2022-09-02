@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <Button android:id="@+id/id006a" android:background="@drawable/drawable005f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="选择词库文件" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+    <Button android:textColor="#ffff0000" android:id="@+id/id006b" android:background="@drawable/drawable005f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="执行操作" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true"/>
+    <TextView android:id="@+id/id0054" android:scrollbars="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_above="@+id/id006c" android:layout_below="@+id/id002b" android:layout_alignParentLeft="true" android:layout_alignParentRight="true"/>
+    <RadioButton android:id="@+id/id006c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="合并" android:layout_above="@+id/id006a" android:layout_alignParentLeft="true"/>
+    <TextView android:gravity="center" android:id="@+id/id002b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="已选择文件:" android:layout_below="@+id/id006b" android:layout_alignParentLeft="true" android:layout_alignParentRight="true"/>
+    <RadioButton android:id="@+id/id006d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="覆盖" android:layout_toRightOf="@+id/id006c" android:layout_above="@+id/id006a"/>
+    <RadioButton android:id="@+id/id006e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="新替换" android:layout_above="@+id/id006a" android:layout_alignParentRight="true"/>
+    <RadioButton android:id="@+id/id006f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="旧保留" android:layout_toLeftOf="@+id/id006e" android:layout_above="@+id/id006a"/>
+</RelativeLayout>

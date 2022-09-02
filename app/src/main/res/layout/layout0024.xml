@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="#ffffffff" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textColor="#ffffffff" android:id="@+id/id002b" android:background="#ff000000" android:paddingLeft="10dp" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="声明" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true"/>
+    <TextView android:id="@+id/id0070" android:background="@android:drawable/editbox_background_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="内容" android:layout_above="@+id/id005b" android:layout_below="@+id/id002b" android:layout_alignParentLeft="true" android:layout_alignParentRight="true"/>
+    <Button android:id="@+id/id0071" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="知道了" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+    <TextView android:textColor="#ffff0000" android:gravity="center" android:id="@+id/id005b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="请仔细阅读以上内容" android:layout_above="@+id/id0071" android:layout_alignParentLeft="true"/>
+</RelativeLayout>

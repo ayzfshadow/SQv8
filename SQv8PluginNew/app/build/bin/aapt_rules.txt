@@ -1,0 +1,12 @@
+# view AndroidManifest.xml #generated:15
+-keep class com.ayzf.sqv8.plugin.Demo { <init>(...); }
+
+# view AndroidManifest.xml #generated:23
+-keep class com.ayzf.sqv8.plugin.MainActivity { <init>(...); }
+
+# onClick res/layout/activity_main.xml #generated:15
+-keepclassmembers class * { *** rec(...); }
+
+# onClick res/layout/activity_main.xml #generated:9
+-keepclassmembers class * { *** send(...); }
+

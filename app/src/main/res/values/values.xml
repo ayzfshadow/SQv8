@@ -1,0 +1,12 @@
+<resources>
+    <string-array name="platforms">
+        <item>手机/安卓</item>
+        <item>平板/安卓</item>
+        <item>电脑/Mac</item>
+    </string-array>
+    <string-array name="appids">
+        <item>537058561</item>
+        <item>537053443</item>
+        <item>537059019</item>
+    </string-array>
+</resources>

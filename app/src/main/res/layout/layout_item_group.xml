@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:descendantFocusability="blocksDescendants"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_vertical">
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_vertical"
+			android:layout_weight="1.0">
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+
+				<ImageView
+					android:id="@+id/id002a"
+					android:layout_width="40dp"
+					android:layout_height="40dp"
+					android:layout_marginLeft="10dp"
+					android:layout_marginTop="10dp"
+					android:layout_marginBottom="10dp"
+					android:src="@drawable/drawable0061"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="left">
+
+				<TextView
+					android:ellipsize="end"
+					android:id="@+id/id002b"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="16dp"
+					android:layout_marginRight="20dp"
+					android:text="default_name"
+					android:lines="1"/>
+
+				<TextView
+					android:id="@+id/id0058"
+					android:layout_marginLeft="16dp"
+					android:layout_marginRight="20dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="5dp"
+					android:text="0"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:layout_weight="1.0"
+			android:gravity="right">
+
+			<TextView
+				android:textColor="#ffffffff"
+				android:gravity="center"
+				android:id="@+id/id0057"
+				android:background="@drawable/drawable005b"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginRight="8dp"
+				android:text="0"/>
+
+			<Switch
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginRight="8dp"
+				android:id="@+id/layoutitemgroupSwitch1"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</FrameLayout>
+

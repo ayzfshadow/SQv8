@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="attr0000" format="boolean">
+    </attr>
+    <attr name="attr0001" format="boolean">
+    </attr>
+    <attr name="attr0002" format="boolean">
+    </attr>
+    <attr name="attr0003" format="dimension|fraction">
+    </attr>
+    <attr name="attr0004" format="dimension|fraction">
+    </attr>
+    <attr name="attr0005" format="dimension|fraction">
+    </attr>
+    <attr name="attr0006" format="dimension|fraction">
+    </attr>
+    <attr name="attr0007" format="reference">
+    </attr>
+    <attr name="attr0008" format="reference">
+    </attr>
+    <attr name="attr0009" format="reference">
+    </attr>
+    <attr name="attr000a" format="reference">
+    </attr>
+    <attr name="attr000b" format="reference">
+    </attr>
+    <attr name="attr000c" format="reference">
+    </attr>
+    <attr name="attr000d" format="reference">
+    </attr>
+    <attr name="attr000e" format="dimension">
+    </attr>
+    <attr name="attr000f" format="reference">
+    </attr>
+    <attr name="attr0010" format="reference">
+    </attr>
+    <attr name="attr0011" format="reference">
+    </attr>
+    <attr name="attr0012" format="reference|color">
+    </attr>
+    <attr name="attr0013" format="reference">
+    </attr>
+    <attr name="attr0014" format="reference">
+    </attr>
+    <attr name="attr0015" format="reference">
+    </attr>
+    <attr name="attr0016" format="reference">
+    </attr>
+    <attr name="attr0017" format="reference">
+    </attr>
+    <attr name="attr0018" format="reference">
+    </attr>
+    <attr name="attr0019" format="reference">
+    </attr>
+    <attr name="attr001a" format="reference">
+    </attr>
+    <attr name="attr001b" format="reference">
+    </attr>
+    <attr name="attr001c" format="dimension">
+    </attr>
+    <attr name="attr001d" format="dimension">
+    </attr>
+    <attr name="attr001e" format="dimension">
+    </attr>
+    <attr name="attr001f" format="dimension">
+    </attr>
+    <attr name="attr0020" format="dimension">
+    </attr>
+    <attr name="attr0021" format="reference">
+    </attr>
+    <attr name="attr0022" format="reference">
+    </attr>
+    <attr name="attr0023" format="reference">
+    </attr>
+    <attr name="attr0024" format="reference">
+    </attr>
+    <attr name="attr0025" format="string">
+    </attr>
+    <attr name="attr0026" format="dimension">
+    </attr>
+   
+    
+    <attr name="attr002b" format="reference">
+    </attr>
+    <attr name="attr002c" format="reference">
+    </attr>
+    <attr name="attr002d" format="reference">
+    </attr>
+    <attr name="attr002e" format="reference">
+    </attr>
+    <attr name="attr002f" format="reference">
+    </attr>
+    <attr name="attr0030" format="reference|color">
+    </attr>
+    <attr name="attr0031" format="reference|color">
+    </attr>
+    <attr name="attr0032" format="reference">
+    </attr>
+    <attr name="attr0033" format="reference">
+    </attr>
+    <attr name="attr0034" format="reference">
+    </attr>
+    <attr name="attr0035" format="reference">
+    </attr>
+    <attr name="attr0036" format="dimension">
+    </attr>
+    <attr name="attr0037" format="dimension">
+    </attr>
+    <attr name="attr0038" format="dimension">
+    </attr>
+    <attr name="attr0039" format="dimension">
+    </attr>
+    <attr name="attr003a" format="reference">
+    </attr>
+    <attr name="attr003b" format="reference">
+    </attr>
+    <attr name="attr003c" format="reference">
+    </attr>
+    <attr name="attr003d" format="reference">
+    </attr>
+    <attr name="attr003e" format="reference">
+    </attr>
+    <attr name="attr003f" format="reference">
+    </attr>
+    <attr name="attr0040" format="reference">
+    </attr>
+    <attr name="attr0041" format="reference">
+    </attr>
+    <attr name="attr0042" format="reference">
+    </attr>
+    <attr name="attr0043" format="reference">
+    </attr>
+    <attr name="attr0044" format="reference">
+    </attr>
+    <attr name="attr0045" format="reference">
+    </attr>
+    <attr name="attr0046" format="reference">
+    </attr>
+    <attr name="attr0047" format="reference">
+    </attr>
+    <attr name="attr0048" format="dimension">
+    </attr>
+    <attr name="attr0049" format="reference">
+    </attr>
+    <attr name="attr004a" format="dimension">
+    </attr>
+    <attr name="attr004b" format="reference">
+    </attr>
+    <attr name="attr004c" format="reference">
+    </attr>
+ 
+    
+    <attr name="attr0051" format="reference">
+    </attr>
+    
+    <attr name="attr0053" format="reference">
+    </attr>
+    <attr name="attr0054" format="boolean">
+    </attr>
+   
+    <attr name="attr0056" format="dimension">
+    </attr>
+    <attr name="attr0057" format="reference">
+    </attr>
+    <attr name="attr0058" format="reference">
+    </attr>
+    <attr name="attr0059" format="boolean">
+    </attr>
+    <attr name="attr005a" format="boolean">
+    </attr>
+    <attr name="attr005b" format="string">
+    </attr>
+    <attr name="attr005c" format="reference">
+    </attr>
+    <attr name="attr005d" format="reference">
+    </attr>
+    <attr name="attr005e" format="reference">
+    </attr>
+    <attr name="attr005f" format="reference">
+    </attr>
+    <attr name="attr0060" format="reference">
+    </attr>
+    <attr name="attr0061" format="reference">
+    </attr>
+    <attr name="attr0062" format="reference">
+    </attr>
+    <attr name="attr0063" format="reference">
+    </attr>
+    <attr name="attr0064" format="reference">
+    </attr>
+    <attr name="attr0065" format="dimension">
+    </attr>
+    <attr name="attr0066" format="reference">
+    </attr>
+    <attr name="attr0067" format="reference">
+    </attr>
+    <attr name="attr0068" format="reference|color">
+    </attr>
+    <attr name="attr0069" format="reference">
+    </attr>
+    <attr name="attr006a" format="string">
+    </attr>
+    <attr name="attr006b" format="reference">
+    </attr>
+    <attr name="attr006c" format="reference">
+    </attr>
+    <attr name="attr006d" format="reference|boolean">
+    </attr>
+    <attr name="attr006e" format="reference|dimension">
+    </attr>
+    <attr name="attr006f" format="reference|dimension">
+    </attr>
+    <attr name="attr0070" format="reference|color">
+    </attr>
+    <attr name="attr0071" format="reference|color">
+    </attr>
+    <attr name="attr0072" format="reference|color">
+    </attr>
+    <attr name="attr0073" format="reference|dimension">
+    </attr>
+    <attr name="attr0074" format="reference|color">
+    </attr>
+    <attr name="attr0075" format="reference|dimension">
+    </attr>
+    <attr name="attr0076" format="reference|color">
+    </attr>
+    <attr name="attr0077" format="reference|dimension">
+    </attr>
+    <attr name="attr0078" format="reference|dimension">
+    </attr>
+    <attr name="attr0079" format="reference|boolean">
+    </attr>
+    <attr name="attr007a" format="reference|boolean">
+    </attr>
+    <attr name="attr007b" format="reference|integer">
+    </attr>
+    <attr name="attr007c" format="reference|color">
+    </attr>
+    <attr name="attr007d" format="reference|boolean">
+    </attr>
+    <attr name="attr007e" format="reference|color">
+    </attr>
+    <attr name="attr007f" format="reference|boolean">
+    </attr>
+</resources>

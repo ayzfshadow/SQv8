@@ -1,0 +1,46 @@
+tasks.whenTaskAdded { task ->
+    if (task.name.contains("lint")) {
+        task.enabled = false
+    }
+}
+apply plugin: 'com.android.application'
+apply plugin: 'stringfog'
+
+//stringfog{
+//	enable true
+//	maxTextLength 500
+//	fogBuildtypes = ['release']
+	//excludeFogPackages =['org.spongycastle'/*,'androidx','com.github.pedrovgs.lynx'*/]
+//}
+
+android {
+    compileSdkVersion 31
+
+    defaultConfig {
+        applicationId "com.ayzf.sqv8"
+        minSdkVersion 14
+        targetSdkVersion 28
+        versionCode 8
+        versionName "1.7"
+        
+    }
+    buildTypes {
+        release {
+			minifyEnabled false
+			shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules-release.pro'
+        }
+        debug {
+		    minifyEnabled false
+			shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules-debug.pro'
+        }
+    }
+}
+
+dependencies {
+    api 'androidx.appcompat:appcompat:1.0.0'
+	api 'com.google.android.material:material:1.0.0'
+	api 'androidx.multidex:multidex:2.0.0+'
+    api fileTree(dir: 'libs', include: ['*.jar'])
+}

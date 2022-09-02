@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:background="@color/colorWhite"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+		android:id="@+id/id0073"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_below="@+id/id0072"
+		android:layout_alignParentLeft="true">
+
+		<ListView
+			android:id="@+id/id0074"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"/>
+
+	</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+</LinearLayout>
+

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="设备信息设置">
+        <EditTextPreference
+            android:key="devicesetting_devicename"
+            android:title="设备名称"
+            android:summary="不设置将使用默认" />
+        <EditTextPreference
+            android:key="devicesetting_devicecompany"
+            android:title="设备厂商"
+            android:summary="不设置将使用默认" />
+        <EditTextPreference
+            android:key="devicesetting_imei"
+            android:title="imei"
+            android:summary="不设置将使用默认" />
+        <EditTextPreference
+            android:key="devicesetting_wifi"
+            android:title="wifi名称"
+            android:summary="不设置将使用默认" />
+        <EditTextPreference
+            android:key="devicesetting_androidversion"
+            android:title="安卓版本"
+            android:summary="不设置将使用默认" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="程序设置">
+        <ListPreference  
+            android:key="appsettings_appid"  
+            android:title="登陆标识"  
+            android:summary="选择一个登陆平台"  
+            android:entries="@array/platforms"  
+            android:entryValues="@array/appids"  
+            android:dialogTitle="选择一个" />
+        <SwitchPreference 
+            android:key="appsettings_replydiscussmessage"                                       
+            android:summary="是否开启讨论组回复"                     
+            android:title="讨论组回复" />
+        <SwitchPreference 
+            android:key="appsettings_replyprivatemessage"                                       
+            android:summary="是否开启私聊回复"                     
+            android:title="私聊回复" />
+        <SwitchPreference 
+            android:key="appsettings_multithreadrun"                                       
+            android:summary="解决消息阻塞问题"                     
+            android:title="多线程消息处理" />
+    </PreferenceCategory>
+</PreferenceScreen>
+

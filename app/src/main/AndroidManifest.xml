@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ayzf.sqv8">
+
+    <!-- READ_LOGS -->
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+
+    <!-- 拥有完全的网络访问权限 -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <!-- 查看网络连接 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <!-- MOUNT_UNMOUNT_FILESYSTEMS -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+
+    <!-- 修改或删除您共享存储空间中的内容 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <!-- 防止手机休眠 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+
+    <!-- 此应用可显示在其他应用上方 -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+
+    <!-- 读取手机状态和身份 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+    <!-- 查看WLAN连接 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+    <!-- 运行前台服务 -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+
+    <!-- 请求安装文件包 -->
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+
+    <application
+        android:theme="@style/AppTheme"
+        android:label="@string/AppName"
+        android:icon="@drawable/qq"
+        android:screenOrientation="portrait"
+        android:allowBackup="true"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:name="saki.client.SQApplication">
+
+        <activity
+            android:label="@string/AppName"
+            android:name="saki.ui.LoginActivity">
+
+            <intent-filter>
+
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:label="@string/AppName"
+            android:name="saki.ui.PagerActivity"
+            android:launchMode="singleTask"/>
+
+        <activity
+            android:label="@string/AppName"
+            android:name="saki.ui.SettingsPreferenceActivity"
+            android:launchMode="singleTask"/>
+
+        <activity
+            android:label="@string/AppName"
+            android:name="com.ayzf_shadow.Activity.AuthorityActivity"
+            android:launchMode="singleTask"/>
+
+        <activity
+            android:name="com.ayzf_shadow.app.SQErrorActivity"
+            android:label="Error"
+            android:theme="@style/ErrorTheme"
+            android:launchMode="singleTask"/>
+
+        <activity android:name="saki.ui.MessageActivity"/>
+
+        <activity android:name="com.setqq.plugin.dictionary.DictionaryInputActivity"/>
+
+        <service android:name="saki.client.SQService"/>
+
+        <service android:name="com.setqq.plugin.PluginService">
+
+            <intent-filter>
+
+                <action android:name="com.setqq.v8.service"/>
+
+            </intent-filter>
+
+        </service>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.ayzf.sqv8"
+            android:exported="false"
+            android:grantUriPermissions="true">
+
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/public_path"/>
+
+        </provider>
+
+    </application>
+
+</manifest>
